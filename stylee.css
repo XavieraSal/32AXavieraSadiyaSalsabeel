@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(252, 184, 248);
+}
+
+table{
+    /*width: 500px;*/
+    margin:auto;
+    table-layout:auto;
+    text-align:center;
+    margin-top: 100;
+    color:black;
+    border: black;
+
+}
+
+.Kuning{
+    background-color: rgb(238, 255, 0);
+}
+
+.Hijau{
+    background-color: green;
+}
+
+.Merah{
+    background-color: red;
+}
+
+.Birut{
+    background-color: darkblue;
+}
+
+.Hitam{
+    background-color: black;
+    color:white;
+}
+
+.Coklat{
+    background-color: chocolate;
+    color:white;
+}
+
+.Putih{
+    background-color: white;
+}
+
+.Pink{
+    background-color: magenta;
+}
+
+.Abu{
+    background-color: grey;
+}
+
+.kosong{
+    background-color: grey;
+}
+
+
+.Orange{
+    background-color: orange;
+}
+
+.Biru{
+    background-color: rgb(0, 81, 255);
+}
+
+.Ungu{
+    background-color: purple;
+    color:white;
+}
+
