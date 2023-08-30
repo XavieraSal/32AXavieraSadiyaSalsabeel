@@ -1,0 +1,77 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(255, 210, 196);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .non-friend-list-container,
+  .friend-list-container {
+    flex: 1;
+    padding: 0 10px;
+  }
+  
+  .friend-form {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .friend-form input {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  #friend-list,
+  #non-friend-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .friend,
+  .non-friend {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 3px solid rgb(255, 255, 255); /*border teman */
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255); /* nama teman, dan ID */
+    background-color: rgb(255, 132, 189);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .friend img,
+  .non-friend img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .friend button,
+  .non-friend button {
+    margin-left: auto;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    background-color: #0061bd;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+  
+  .friend button:hover{
+    background-color: #e02e2e;
+  }
+  
+  .non-friend button:hover {
+    background-color: #07a01b;
+  }
